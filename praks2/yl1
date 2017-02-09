@@ -1,4 +1,5 @@
 #!/bin/bash
-#See on minu esimene skript
+#kasutaja tervitus sõnum
+echo "Tere, "
+echo 'whoami' | cut  -c1 | tr [:lower:][:upper:]
 
-echo "Hello, World!"
