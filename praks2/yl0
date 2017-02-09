@@ -1,0 +1,4 @@
+#!/bin/bash/
+#tervitusskript
+echo "Tere, "
+echo 'whoami'
