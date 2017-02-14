@@ -2,4 +2,7 @@
 #
 #keskkonna ja oma muutujate kasutamine
 #
+#kasutame keskkonna muutuja nimega $USER
+#tervitame kasutajat
+echo "Tere, $USER!"
 
