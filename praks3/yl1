@@ -10,3 +10,8 @@ echo "Tere, $USER!"
 kuupaev=`date +'%d. %B'`
 #väljastame koopäev koos seletusega
 echo "Täna on $kuupaev"
+#kella väärtuse loomine
+#defineerime vastava väärtusega muutuja
+kell=`date +'%H:%M'`
+#väljastame kell koos seletusega
+echo "Kell on $kell"
