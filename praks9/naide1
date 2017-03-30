@@ -1,0 +1,8 @@
+for (( i=5; i<=10; i++ ))	###Outer for loop###
+do
+	for (( j=6 ; j<=9; j++ ))	###Inner for loop###
+	do
+		echo -n "$i "
+	done
+	echo "" ###print the new line###
+done  
