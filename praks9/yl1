@@ -1,0 +1,12 @@
+#!/bin/bash
+#kujundi saamine
+for (( i=*; i<=*****; i++ ))
+do
+	for (( j=5; j<=5 ))
+	do
+		echo -n "$i "
+	done
+	echo ""
+done
+
+
