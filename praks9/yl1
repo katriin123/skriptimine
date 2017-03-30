@@ -1,8 +1,8 @@
 #!/bin/bash
 #kujundi saamine
-for (( i=*; i<=*****; i++ ))
+for (( i=1; i<=5; i++ ))
 do
-	for (( j=5; j<=5 ))
+	for (( j=5; j<=6; j++ ))
 	do
 		echo -n "$i "
 	done
