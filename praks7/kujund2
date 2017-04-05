@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#kolmnurk
+#
+for((r=1; r<5; r++))
+do
+	#veerud - tärnid
+	#tärnive arv algab 1-st
+	#igal real ei tohi tärnide arv ületada rea numbrit
+	for ((t=1; t<$(($r+1)); t++))
+	do
+	echo -n "* "
+	done
+	echo #reavahetus 
+done
