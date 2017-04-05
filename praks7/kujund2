@@ -5,7 +5,9 @@
 #read
 #
 #alumine pool
-for((r=4; r>0; r--))
+echo "Sisesta ridade arv: "
+read ridade_arv
+for((r=$ridade_arv; r>0; r--))
 do
 	#veerud - täpid
 	#tärnive arv algab 1-st
@@ -17,18 +19,9 @@ do
 	#tärnid
 	#tärnide arv algab 1-st
 	#igal real ei tohi tärnide arv ületada 4-$r +2
-	for ((t=1; t<$((4 - $r + 2)); t++))
+	for ((t=1; t<$(($ridade_arv - $r + 2)); t++))
 	do
 	echo -n "* "
 	done
 	echo #reavahetus
 done
- #alumine pool
-#for((r=4; r>0; r--))
-#do
-	#for((t=1; t<$(($r+1)); t++))
-	#do
-	#echo -n "* "
-	#done
-	#echo #reavahetus
-#done
