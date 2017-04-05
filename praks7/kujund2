@@ -2,7 +2,7 @@
 #
 #kolmnurk
 #
-for((r=1; r<5; r++))
+for((r=4; r>0; r--))
 do
 	#veerud - tärnid
 	#tärnive arv algab 1-st
